@@ -6,7 +6,7 @@ class UserPage extends StatefulWidget {
   const UserPage({super.key});
 
   @override
-  _UserPageState createState() => _UserPageState();
+  State<UserPage> createState() => _UserPageState();
 }
 
 class _UserPageState extends State<UserPage> {
